@@ -20,7 +20,7 @@ In the interest of keeping with the recommended development time a lot of functi
 * Unit tests, my framework of choice is `rspec` however I didn't have time to include it.
 * Productionising 
     * Supplying user friendly errors
-    * Suppressing application details in errors
+    * Suppressing application details in errors (I believe rails does this automatically but it's worth checking and providing better errors anyway)
     * Deployment requirements (docker etc)
     * Use of non default gems
     * API versioning
